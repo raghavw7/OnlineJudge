@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+        <div class="heading_container">
+            <h3>Hello {% if user.is_authenticated %} <a href="/accounts/profile"> {{user.username}}</a>  {% else %} Anon {% endif %}, Welcome To SYTYCC!</h3>
+            <h4>
+                Test your coding prowess and invite your friends to compete against you!
+            </h4>
+            <br>
+
+        </div>
+
+
+<h4>ProblemSet</h4>
+<h5>Questions for you:</h5>
+    <div class="question_set">
+        <ul>
+            <li><a href="/problems/1"> Car and cake </a></li>
+        </ul>
+    </div>
+{% endblock %}
+

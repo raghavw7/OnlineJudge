@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <h3> Add a problem: </h3>
+    <form method = "POST" action="{% url 'add_problem' %}">
+        {% csrf_token %}
+        {{ form.as_p }}
+
+        <button class="btn btn-primary" type="submit"> Add </button>
+    </form>
+
+{% endblock %}

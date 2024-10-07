@@ -1,0 +1,130 @@
+{% extends 'base.html' %}
+
+{% block style %}
+    {{block.super}}
+<style>
+    .container-full.container-fluid {
+        display: flex;
+    }
+
+     .problem_description, .problem_solution {
+        flex: 1; /* This will make both divs take equal width */
+        padding: 20px;
+        border: 1px solid #ccc; /* Just for visualization */
+    }
+
+    .container_code {
+        display : flex;
+        flex-direction: column;
+        }
+
+    .code_box {
+        flex: 1;
+        padding: 20px;
+        width: 100%;
+    }
+
+    .code_custom {
+         width: 100%;
+    }
+
+    .code_language {
+        flex: 1;
+        padding: 20px;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .lang_custom {
+        width: 100%;
+    }
+
+    .code_input {
+         flex: 1;
+        padding: 20px;
+        margin: auto;
+        text-align: center;
+        width: 100%;
+        height: 20px;
+    }
+    .input_custom {
+        width: 100%;
+        height: 50px;
+    }
+</style> {% endblock %}
+
+{% block title %}<title>
+    SYTYCC
+</title> {% endblock %}
+
+{% block content %}
+{% load custom_filters %}
+
+<!--    <h4> Problem {{problem_id}} </h4>-->
+<!--    <h4> {% if problem_id.title %} problem_id.title {% else %} Car and Cake {% endif %} </h4>-->
+
+<!--        <div class="alert alert-{{ message.tags }} alert-dismissible fade show" role="alert">-->
+<!--         {{ message }}-->
+<!--        </div>-->
+
+    <div class="container-full container-fluid">
+
+        <div class="col-4 container_right">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title"> Problem {{problem.id}}</h3>
+                    <h5 class="card-subtitle mb-2 text-body-secondary">{% if problem.title %} {{problem.title}} {% else %} Car and Cake {% endif %}</h5>
+                    <p class="">{% if problem.description %} {{problem.description}} {% else %} Description {% endif %}</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col container_left ">
+            <div class="card">
+                <div class="card-body">
+                    <h3> Problem Solution</h3>
+                    <form action="/problems/{{problem.id}}/run_solution/" method="POST">
+                        {% csrf_token %}
+<!--                        <div class="form-group">-->
+<!--                            <textarea class="form-control" rows="10" placeholder="Type your code here..."></textarea>-->
+<!--                        </div>-->
+<!--                        <br>-->
+<!--                        <div class="form-group">-->
+<!--                            <button class="btn btn-primary form-control" type="submit">Submit</button>-->
+<!--                        </div>-->
+
+<!--                        {{ form.as_p }}-->
+                        <div class="container_code ">
+                            {% for form_field in form %}
+                                    {% if form_field.label == 'Language' %}
+                                        <div class="code_language">
+                                            {{form_field.label }} {{form_field | add_class:"lang_custom"}}
+                                        </div>
+                                    {% elif form_field.label == 'Code' %}
+                                        <div class="code_box">
+                                            {{form_field | add_class:"code_custom"}}
+                                        </div>
+                                    {% elif form_field.label == 'Input' %}
+                                        <div class="code_input">
+                                            {{form_field.label }} {{form_field | add_class:"input_custom"}}
+                                        </div>
+<!--                                        {{form_field.label}} {{form_field}}-->
+                                    {% endif %}
+                            {% endfor %}
+                        </div>
+
+                        <div class="form-group">
+                            <button name="compile_run" class="btn btn-primary form-control" type="submit">Run</button>
+                            <button name="compile_submit" class="btn btn-primary form-control" type="submit">Submit</button>
+
+                        </div>
+                        {% if executed %}<p> Yay! It passed  </p> {% endif %}
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

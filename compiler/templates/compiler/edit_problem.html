@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+    <form action="{% url 'edit_problem' problem_id %}" method="POST">
+        {% csrf_token %}
+         {{ form.as_p }}
+
+        <button class="btn btn-primary" type="submit"> Edit</button>
+    </form>
+
+{% endblock %}

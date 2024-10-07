@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <br>
+    <h4> Problem {{problem_id}} </h4>
+    <h4> {% if problem_id.title %} problem_id.title {% else %} Car and Cake {% endif %} </h4>
+
+    <div class="container-full">
+        <div class="problem_description">
+            <h3>
+                Problem Description
+            </h3>
+        </div>
+
+        <div class="run_solution">
+            <h3> Problem Solution</h3>
+            <form action="/run_solutions2/" method="POST">
+                {{ form.as_p }}
+                {% csrf_token %}
+
+                <button class="btn btn-primary" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+{% endblock %}

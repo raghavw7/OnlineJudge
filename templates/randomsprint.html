@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+  <h1>  Solve these in one go and get the sprinter badge!</h1>
+
+  <div class="container text-center" >
+    <div class="row justify-content-md-center">
+            <div class="col-9">
+
+                <ul class="list-group">
+    {% for prob in random_problems %}
+        <li class="list-group-item d-flex justify-content-between align-items-center"><span> {{prob.title}} </span>
+        <span> <a class="btn btn-primary" href="/problems/{{prob.id}}"> Solve </a></span>
+        </li>
+    {% endfor %}
+  </ul>
+            </div>
+    </div>
+  </div>
+
+{% endblock %}
