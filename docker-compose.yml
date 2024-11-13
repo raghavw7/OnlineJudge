@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  django:
+    build:
+      context: ./django
+      dockerfile: Dockerfile
+    depends_on:
+      - code-executor
+    ports:
+      - "8000:8000"
+
+  code-executor:
+    build:
+      context: ./executor
+      dockerfile: Dockerfile
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      FLASK_APP: "app.py"
+    ports:
+      - "5000:5000"

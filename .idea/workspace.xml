@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1d40291c-4dec-4c37-844c-b637c0b9235f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/.idea/sytycc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/entrypoint.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/frontend/src/components/CodeSubmission.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/frontend/src/components/LeaderBoard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/frontend/src/components/TestCase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django/frontend/src/components/TopProblems.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/executor/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/executor/entrypoint.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sytycc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sytycc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SoYouThinkYouCanCode.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/cpp/1dace63fec1d54b3293954998520fe036.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/cpp/temp_program.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/cpp/tempcode1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/python/temp_code.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/python/tempcode1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiler/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiler/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiler/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiler/compile_func.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiler/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiler/management/commands/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiler/management/commands/seed_problems.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiler/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiler/migrations/0002_problem_inputs_problem_outputs_and_more.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiler/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiler/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiler/run_solutions_form.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiler/submit_func.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiler/templates/compiler/add_problem.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiler/templates/compiler/add_testcase.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiler/templates/compiler/edit_problem.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiler/templatetags/custom_filters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiler/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiler/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiler/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db_before_cleaning.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/django/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/django/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/django/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/django/frontend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/cpp/1dace63fec1d54b3293954998520fe036program.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/453.8ab44547.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/453.8ab44547.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/main.e57bb564.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/main.e57bb564.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/main.e57bb564.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sytycc/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sytycc/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sytycc/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sytycc/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sytycc/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sytycc/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Registration/logged_out.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Registration/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Registration/password_change_done.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Registration/password_change_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Registration/password_reset_complete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Registration/password_reset_confirm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Registration/password_reset_done.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Registration/password_reset_email.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Registration/password_reset_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Registration/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index_old.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/leaderboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/problem_description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/problem_description_react.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/problem_set.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/randomsprint.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/run_solution.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/top_problems.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/top_questions.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2oTEyNk1OkwB8R2ItWGqmlRdxQm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/Webdev/Projects/Django/sytycc/django/manage.py",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="runserver" type="PythonConfigurationType" factoryName="Python">
+      <module name="sytycc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\Webdev\Projects\Django\djangoenv\Scripts\python.exe" />
+      <option name="SDK_NAME" value="Python 3.11 (djangoenv)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/django" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/django/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d40291c-4dec-4c37-844c-b637c0b9235f" name="Changes" comment="" />
+      <created>1730885419470</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730885419470</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/django/compiler/views.py</url>
+          <line>159</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/django/compiler/submit_flask.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/django/compiler/views.py</url>
+          <line>163</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/django/compiler/views.py</url>
+          <line>172</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/django/compiler/submit_flask.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/django/compiler/submit_flask.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/django/compiler/submit_flask.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/django/compiler/views.py</url>
+          <line>174</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/django/compiler/views.py</url>
+          <line>175</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/django/compiler/views.py</url>
+          <line>176</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/django/compiler/views.py</url>
+          <line>177</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/django/compiler/views.py</url>
+          <line>164</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/django/compiler/views.py</url>
+          <line>165</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/django/compiler/submit_flask.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/django/compiler/submit_flask.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/django/compiler/submit_flask.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/django/compiler/submit_flask.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/django/compiler/submit_flask.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/django/compiler/submit_flask.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/django/compiler/submit_flask.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/django/compiler/submit_flask.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/django/compiler/submit_flask.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/django/compiler/submit_flask.py</url>
+          <line>91</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/django/compiler/submit_flask.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/django/compiler/submit_flask.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/django/compiler/submit_flask.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/django/compiler/submit_flask.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/django/compiler/submit_flask.py</url>
+          <line>72</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/django/compiler/submit_flask.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/django/compiler/submit_flask.py</url>
+          <line>75</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/django/compiler/submit_flask.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/django/compiler/submit_flask.py</url>
+          <line>68</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/django/compiler/submit_flask.py</url>
+          <line>69</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/django/compiler/submit_flask.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

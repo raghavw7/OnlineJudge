@@ -1,0 +1,103 @@
+{% extends 'base.html' %}
+
+{% block style %}
+    {{block.super}}
+<style>
+    .container-full.container-fluid {
+        display: flex;
+        align-items: stretch;
+    }
+
+     .problem_description, .problem_solution {
+        flex: 1; /* This will make both divs take equal width */
+        padding: 20px;
+        border: 1px solid #ccc; /* Just for visualization */
+    }
+
+    .container_left, .container_right {
+        flex:1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card{
+        height: 100%;
+        width: 100%;
+        flex-direction : column;
+    }
+
+    .card-body {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .scrollable {
+        font-size: 12px;
+        text-align: left;
+        width:100%;
+        height: 500px;
+        overflow-y: scroll;
+        overflow-x:hidden;
+        border: 1px solid #ccc;
+        padding: 10px;
+    }
+
+
+</style> {% endblock %}
+
+{% block title %}<title>
+    SYTYCC
+</title> {% endblock %}
+
+{% block content %}
+{% load custom_filters %}
+
+    <div class="container-full container-fluid">
+
+        <div class="col-md-6 container_left">
+            <div class="card">
+                <div class="card-body">
+                    <div class="card-body-title">
+                        <h3 class="card-title"> Problem {{problem.id}}</h3>
+                        <h5 class="card-subtitle mb-2 text-body-secondary">{% if problem.title %} {{problem.title}} {% else %} Car and Cake {% endif %}</h5>
+                    </div>
+                    <div class="card-body-descr scrollable">
+                        <p class="">{% if problem.description %} {{problem.description|safe}} {% else %} Description {% endif %}</p>
+                        <p class="">{% if problem.inputs %} {{problem.inputs|safe}} {% else %} Inputs {% endif %}</p>
+                        <p class="">{% if problem.outputs%} {{problem.outputs|safe}} {% else %} Outputs {% endif %}</p>
+                    <div id="testcases"></div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        {% load static%}
+
+        <div class="col-md-6 container_right ">
+            <div class="card">
+                <div class="card-body">
+
+
+                <!-- Render React here        -->
+                <div id="code-submission-root"></div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        window.problemId = "{{problem_id}}"
+    </script>
+
+    <script src="/static/js/main.c8bf56b7.js"></script>
+<!--    <link href="/static/css/main.9ce815c5.js" rel="stylesheet">-->
+
+{% endblock %}
