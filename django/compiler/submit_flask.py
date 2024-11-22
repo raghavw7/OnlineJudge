@@ -85,7 +85,7 @@ def submit_it(request, prob_id, lang, code):
     print(user)
     print(user.username)
     # user = User.objects.get()
-    submission = Submission(problem=problem, user=user, time_stamp=datetime.datetime.now())
+    submission = Submission(problem=problem, user=user, time_stamp=datetime.datetime.now(), code=code)
     submission.save()
     print(submission.problem)
 

@@ -1,8 +1,10 @@
 from django.contrib import admin
 from django.urls import path, include
 from . import views
+from django.views.generic import TemplateView
 
 urlpatterns = [
+    path('', TemplateView.as_view(template_name='index.html')),
     path('index/', views.index, name='index'),
     path('problem_set/', views.probelem_set, name='problem_set'),
     path('problems/<int:prob_id>/', views.problems, name='problems'),

@@ -1,7 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import AbstractUser
 from django.contrib import auth
-
+from datetime import datetime
 
 class User(AbstractUser):
     # username = models.CharField()
@@ -42,8 +42,9 @@ class TestCase(models.Model):
 class Submission(models.Model):
     problem = models.ForeignKey(Problem, on_delete=models.CASCADE)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
-    time_stamp = models.DateTimeField()
+    time_stamp = models.DateTimeField(default=datetime.now, blank=True)
     verdict = models.CharField(max_length=30, default='Failed')
+    code = models.TextField(max_length=1000, null=True, blank=True)
 
     # For future:
     # run_time =

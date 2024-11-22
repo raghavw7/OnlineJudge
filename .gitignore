@@ -1,0 +1,15 @@
+.env
+*.pyc
+__pycache__/
+/staticfiles/
+django/frontend/build/
+
+*.log
+*.pid
+docker-compose.override.yml
+node_modules/
+.vscode/
+.idea/
+
+.DS_Store
+Thumbs.db

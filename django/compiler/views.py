@@ -63,12 +63,16 @@ def probelem_set(request):
 
     return render(request, 'problem_set.html', {'problems': problems, 'page_obj': page_obj})
 
+from .utils import get_react_file
 
 # @login_required()
 def problems(request, prob_id):
     problem = Problem.objects.get(id=prob_id)
     form = Run_Solution_Form()
-    return render(request, 'problem_description_react.html', {'problem_id': problem.id, 'executed':False, 'form': form, 'problem': problem})
+
+    react_js = get_react_file('js', 'main.js')
+
+    return render(request, 'problem_description_react.html', {'problem_id': problem.id, 'executed':False, 'form': form, 'problem': problem, 'react_js':react_js})
 
 def compile(lang, code, inputs):
 
@@ -271,6 +275,10 @@ def delete_testcase(request, tc_id):
 import math
 def random_sprint(request):
 
+    # print(settings.BASE_DIR)
+    # print(settings.STATIC_ROOT)
+    # print(settings.STATICFILES_DIRS)
+
     problem_set = Problem.objects.all()
     random_problems = []
     while len(random_problems) < 10:
@@ -288,8 +296,8 @@ def random_sprint(request):
 
 
 def leaderboard_page(request):
-
-    return render(request, 'leaderboard.html', {})
+    react_js = get_react_file('js', 'main.js')
+    return render(request, 'leaderboard.html', {'react_js':react_js})
 
 def leaderboard(request):
 
@@ -312,7 +320,8 @@ def top_problems(request):
 
 def top_problems_page(request):
 
-    return render(request, 'top_problems.html', {})
+    react_js = get_react_file('js', 'main.js')
+    return render(request, 'top_problems.html', {'react_js':react_js})
 
 
 def test_cases(request, prob_id):
