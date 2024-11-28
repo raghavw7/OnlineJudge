@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d40291c-4dec-4c37-844c-b637c0b9235f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/django/frontend/src/components/CodeSubmission.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/frontend/src/components/LeaderBoard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/frontend/src/components/TestCase.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django/frontend/src/components/TopProblems.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx/nginx.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django/frontend" beforeDir="false" afterPath="$PROJECT_DIR$/django/frontend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django/frontend/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/django/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/django/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/django/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/django/frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/django/frontend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
